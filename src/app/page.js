@@ -44,7 +44,7 @@ export default function Home() {
               View Projects
             </button>
           </a>
-          <a href="/Mohammed_Mazin_Resume.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="public/Mohammed_Mazin_Resume.pdf" target="_blank" rel="noopener noreferrer">
             <button className="px-6 py-2 border border-white rounded-full hover:bg-white hover:text-black transition duration-300">
               View Resume
             </button>
