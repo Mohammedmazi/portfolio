@@ -68,6 +68,13 @@ export default function Home() {
 
     <div className="grid md:grid-cols-2 gap-10">
       {/* Project Card 1 */}
+
+         <a
+    href="https://github.com/Mohammedmazi/signify"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-gray-900 p-6 rounded-lg shadow hover:scale-[1.02] transition block"
+  >  
       <div className="bg-gray-900 p-6 rounded-lg shadow hover:scale-[1.02] transition">
         <h3 className="text-2xl font-semibold mb-2">Signify – AI Sign Language Web App</h3>
         <p className="text-gray-300 text-sm mb-2">
@@ -76,9 +83,20 @@ export default function Home() {
         <p className="text-sm text-gray-400 mb-2">
           <strong>Tech:</strong> Python, MediaPipe, FastAPI, React.js, gTTS
         </p>
+      </a>
       </div>
 
       {/* Project Card 2 */}
+
+         <a
+    href="https://github.com/Mohammedmazi/Grievance-redressal-cell"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-gray-900 p-6 rounded-lg shadow hover:scale-[1.02] transition block"
+  >  
+  
+
+  
       <div className="bg-gray-900 p-6 rounded-lg shadow hover:scale-[1.02] transition">
         <h3 className="text-2xl font-semibold mb-2">College Grievance Redressal Portal</h3>
         <p className="text-gray-300 text-sm mb-2">
@@ -87,9 +105,22 @@ export default function Home() {
         <p className="text-sm text-gray-400 mb-2">
           <strong>Tech:</strong> MongoDB, Express.js, React.js, Node.js, JWT
         </p>
+        </a>
       </div>
 
       {/* Project Card 3 */}
+
+         <a
+    href="https://github.com/Mohammedmazi/ibm_final_project"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-gray-900 p-6 rounded-lg shadow hover:scale-[1.02] transition block"
+  >  
+
+
+
+
+  
       <div className="bg-gray-900 p-6 rounded-lg shadow hover:scale-[1.02] transition">
         <h3 className="text-2xl font-semibold mb-2">Emotion Detection Web App</h3>
         <p className="text-gray-300 text-sm mb-2">
@@ -98,9 +129,18 @@ export default function Home() {
         <p className="text-sm text-gray-400 mb-2">
           <strong>Tech:</strong> Python, Flask, IBM Watson, Heroku
         </p>
+      </a>
       </div>
 
       {/* Project Card 4 */}
+
+        <a
+    href="https://github.com/Mohammedmazi/ship-offshore-proxy"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-gray-900 p-6 rounded-lg shadow hover:scale-[1.02] transition block"
+  >  
+  
       <div className="bg-gray-900 p-6 rounded-lg shadow hover:scale-[1.02] transition">
         <h3 className="text-2xl font-semibold mb-2">Ship Proxy System</h3>
         <p className="text-gray-300 text-sm mb-2">
@@ -109,6 +149,7 @@ export default function Home() {
         <p className="text-sm text-gray-400 mb-2">
           <strong>Tech:</strong> Python, Sockets, TCP, Docker
         </p>
+      </a>
       </div>
     </div>
   </div>
