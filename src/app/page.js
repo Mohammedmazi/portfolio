@@ -75,7 +75,7 @@ export default function Home() {
     rel="noopener noreferrer"
     className="bg-gray-900 p-6 rounded-lg shadow hover:scale-[1.02] transition block"
   >  
-      <div className="bg-gray-900 p-6 rounded-lg shadow hover:scale-[1.02] transition">
+    
         <h3 className="text-2xl font-semibold mb-2">Signify – AI Sign Language Web App</h3>
         <p className="text-gray-300 text-sm mb-2">
           Real-time ASL detection with NLP correction and speech synthesis.
@@ -84,7 +84,7 @@ export default function Home() {
           <strong>Tech:</strong> Python, MediaPipe, FastAPI, React.js, gTTS
         </p>
       </a>
-      </div>
+     
 
       {/* Project Card 2 */}
 
@@ -97,7 +97,7 @@ export default function Home() {
   
 
   
-      <div className="bg-gray-900 p-6 rounded-lg shadow hover:scale-[1.02] transition">
+    
         <h3 className="text-2xl font-semibold mb-2">College Grievance Redressal Portal</h3>
         <p className="text-gray-300 text-sm mb-2">
           Anonymous complaint system with secure role-based login using JWT.
@@ -106,7 +106,7 @@ export default function Home() {
           <strong>Tech:</strong> MongoDB, Express.js, React.js, Node.js, JWT
         </p>
         </a>
-      </div>
+   
 
       {/* Project Card 3 */}
 
@@ -121,7 +121,6 @@ export default function Home() {
 
 
   
-      <div className="bg-gray-900 p-6 rounded-lg shadow hover:scale-[1.02] transition">
         <h3 className="text-2xl font-semibold mb-2">Emotion Detection Web App</h3>
         <p className="text-gray-300 text-sm mb-2">
           NLP-powered emotion analysis app deployed on Heroku.
@@ -130,7 +129,7 @@ export default function Home() {
           <strong>Tech:</strong> Python, Flask, IBM Watson, Heroku
         </p>
       </a>
-      </div>
+      
 
       {/* Project Card 4 */}
 
@@ -141,7 +140,6 @@ export default function Home() {
     className="bg-gray-900 p-6 rounded-lg shadow hover:scale-[1.02] transition block"
   >  
   
-      <div className="bg-gray-900 p-6 rounded-lg shadow hover:scale-[1.02] transition">
         <h3 className="text-2xl font-semibold mb-2">Ship Proxy System</h3>
         <p className="text-gray-300 text-sm mb-2">
           Secure proxy architecture tunneling HTTP/S over persistent TCP.
@@ -150,7 +148,7 @@ export default function Home() {
           <strong>Tech:</strong> Python, Sockets, TCP, Docker
         </p>
       </a>
-      </div>
+      
     </div>
   </div>
 </section>
